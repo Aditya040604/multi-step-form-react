@@ -37,7 +37,8 @@
     inline-size: 400px;
     margin-inline: auto;
     padding: 2rem;
-    border: 4px solid rebeccapurple;
+
+    border-radius: 10px;
   }
   .form-container {
     width: 100%;
@@ -51,9 +52,14 @@
     grid-template-columns: 1fr;
     gap: 0.5rem;
     width: 100%;
+    padding: 1rem;
   }
   input,
   button {
     font-size: 1.2rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
   }
 }
