@@ -13,7 +13,7 @@ const initialState = {
 };
 
 function FormProvider({ children }) {
-  const [formData, SetFormData] = useState(initialState);
+  const [formData, setFormData] = useState(initialState);
   const [page, setPage] = useState(0);
   const nextPage = () => {
     setPage((curPage) => curPage + 1);
@@ -28,7 +28,7 @@ function FormProvider({ children }) {
         formData,
         nextPage,
         prevPage,
-        SetFormData,
+        setFormData,
       }}
     >
       {children}
