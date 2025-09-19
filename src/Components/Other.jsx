@@ -3,7 +3,7 @@ import { useForm } from "../Context/FormContext";
 function Other() {
   const { formData, setFormData } = useForm();
   return (
-    <div className="other-info-container">
+    <>
       <input
         type="text"
         name="nationality"
@@ -30,7 +30,7 @@ function Other() {
         }
         placeholder="Nick name"
       />
-    </div>
+    </>
   );
 }
 

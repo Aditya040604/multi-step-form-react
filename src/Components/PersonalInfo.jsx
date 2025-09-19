@@ -4,7 +4,7 @@ function PersonalInfo() {
   const { formData, setFormData } = useForm();
 
   return (
-    <div className="personal-info-container">
+    <>
       <input
         type="text"
         name="fname"
@@ -47,7 +47,7 @@ function PersonalInfo() {
         placeholder="Username"
         required
       />
-    </div>
+    </>
   );
 }
 

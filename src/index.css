@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @layer reset {
   *,
@@ -9,7 +9,7 @@
     box-sizing: border-box;
   }
   body {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
@@ -57,6 +57,11 @@
   input,
   button {
     font-size: 1.2rem;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+  }
+  button {
+    background-color: rgba(87, 139, 199, 1);
   }
   .footer {
     display: flex;
